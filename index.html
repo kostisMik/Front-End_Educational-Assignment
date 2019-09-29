@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BETA INDEX PAGE</title>
+    <link rel="stylesheet" href="generalStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BETA FRONT PAGE</title>
 </head>
+
 <body>
-    <header>TOP O' DI MOUNTAIN ( has notes toDO )</header>
-    <hr>
-    <!--
+    <header>
+        <!-- Top-navigation-bar Menu ( accessibility provided )-->
+        <div class="navBar" id="myNavBar">
+            <a class="active" href="#home">HOooME</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveFunc()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <hr>
+        <!--
         TO DO:
-        -NAVBAR here or side in mainSection?
-        -Minimal top-right max.3 options
-        ( register / sign in, about us, contact)
         -Top left, makeYourOwnLogo
         - make it combatible with every browser, every screen size, etc etc, googlee!
     -->
-    <!--End of Header-->
-
-<!--MAIN NOTES:
+        <!--End of Header-->
+    </header>
+    <!--MAIN NOTES:
 -Erase Semantics once DONE.
 -Add first styles inline, don't separate until it buffs a bit.
 -ALWAYS init and COMMIT changes to myGit.
--->  
-<main>
+-->
+
     <h1>MAIN CONTENT HEADER</h1>
-    <h2>Main section starting</h2>
+    <h2> section starting</h2>
     <h3> Content's header will be h3'zz</h3>
-    <div>
-        <p>Some Text</p>
-        <p>Some other text</p>
-    </div>
-</main>    
-<!--END OF MAIN-->
+
+
+    <!--END OF MAIN-->
 
     <!--Footer Below-->
     <!--
@@ -46,7 +53,12 @@
     <hr>
     <footer>BIKINI BOTTOM ( has notes toDO )</footer>
     <a href="http://www.w3.org/html/logo/">
-    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-semantics.png" width="261" height="64" alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, and Semantics">
+        <img src="https://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-semantics.png"
+            width="260" height="61"
+            alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, and Semantics. Accessibility Provided."
+            title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, and Semantics. Accessibility Provided.">
     </a>
+    <script src="handlingStuff.js" async></script>
 </body>
+
 </html>
